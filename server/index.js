@@ -6,7 +6,8 @@ import { connectDB } from "./dbConnection.js"
 import {postRouter} from "./routes/postRoutes.js"
 import {router} from "./routes/pixelsRoutes.js"
 
-dotenv.config() //Allows us to pull our env variables
+//Allows us to pull our env variables
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 const app = express()
 const port = 8080 

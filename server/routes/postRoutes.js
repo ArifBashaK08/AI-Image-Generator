@@ -4,7 +4,9 @@ import { v2 as cloudinary } from "cloudinary"
 
 import { PostSchema } from "../models/post.js"
 
-dotenv.config()
+dotenv.config({ path: path.resolve(__dirname, '../../.env') });
+
+
 
 export const postRouter = express.Router()
 
