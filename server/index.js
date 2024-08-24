@@ -7,7 +7,7 @@ import {postRouter} from "./routes/postRoutes.js"
 import {router} from "./routes/pixelsRoutes.js"
 
 //Allows us to pull our env variables
-dotenv.config({ path: path.resolve(__dirname, '../.env') });
+dotenv.config();
 
 const app = express()
 const port = 8080 

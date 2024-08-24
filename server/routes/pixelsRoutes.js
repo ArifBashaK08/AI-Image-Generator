@@ -4,7 +4,7 @@ import { OpenAI } from "openai";
 
 // import { PostSchema } from "../models/post.js"
 
-dotenv.config({ path: path.resolve(__dirname, '../../.env') });
+dotenv.config();
 
 export const router = express.Router()
 
