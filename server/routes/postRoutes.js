@@ -6,6 +6,8 @@ import { PostSchema } from "../models/post.js"
 
 dotenv.config();
 
+
+
 export const postRouter = express.Router()
 
 cloudinary.config({
